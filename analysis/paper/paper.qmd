@@ -1,5 +1,5 @@
 ---
-title: "Title Goes Here"
+title: "my awesome rrTools "
 author:
   - Jane Doe:
       correspondence: "yes"
@@ -43,7 +43,7 @@ filters:
   - ../templates/author-info-blocks.lua
   - ../templates/pagebreak.lua
 bibliography: references.bib
-csl: "../templates/journal-of-archaeological-science.csl" # Insert path for the bib-style
+csl: "../templates/deutsches-archaologisches-institut_modified_2.csl" # Insert path for the bib-style
 abstract: |
   Text of abstract
 keywords: |
@@ -64,7 +64,7 @@ Highlights: `r rmarkdown::metadata$highlights`
 
 # Introduction
 
-Here is a citation [@Marwick2017]
+Here is a citation [@Marwick2017] Here is an example of citation @oswald_pryce
 
 # Background
 
@@ -84,7 +84,7 @@ my_data <- read.csv(here::here('analysis/data/raw_data/my_csv_file.csv'))
 ```{r}
 #| label: fig-demo-plot
 #| fig-cap: "A plot of random numbers"
-plot(rnorm(10))
+plot(rnorm(1000))
 ```
 
 Figure @fig-demo-plot shows how we can have a caption and cross-reference for a plot. Note that figure label and cross-references must both be prefixed with `fig-`
@@ -96,6 +96,17 @@ x <- round(pi, 2)
 ```
 
 Here is an example of inline code `r x` in the middle of a sentence.
+
+```{r}
+#| label: fig-mtcars-scatter-plot
+#| fig-cap: Scatter plot of miles per gallon by horsepower
+library(ggplot2)
+ggplot(mtcars) +
+  aes(mpg, hp) +
+  geom_point()
+```
+
+Now I am writing about the Figure... In @fig-mtcars-scatter-plot
 
 # Discussion
 
