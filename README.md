@@ -7,22 +7,20 @@
 
 This repository contains the data and code for our paper:
 
-> Authors, (YYYY). *Title of your paper goes here*. Name of journal/book
+> Jonas von Felten, (2023). *rrTools Workshop*. ArchGR
 > <https://doi.org/xxx/xxx>
 
 Our pre-print is online here:
 
-> Authors, (YYYY). *Title of your paper goes here*. Name of
-> journal/book, Accessed 03 Feb 2023. Online at
-> <https://doi.org/xxx/xxx>
+> Authors, (YYYY). *rrTools Workshop*. Name of journal/book, Accessed 03
+> Feb 2023. Online at <https://doi.org/xxx/xxx>
 
 ### How to cite
 
 Please cite this compendium as:
 
-> Authors, (2023). *Compendium of R code and data for Title of your
-> paper goes here*. Accessed 03 Feb 2023. Online at
-> <https://doi.org/xxx/xxx>
+> Authors, (2023). *Compendium of R code and data for rrTools Workshop*.
+> Accessed 03 Feb 2023. Online at <https://doi.org/xxx/xxx>
 
 ## Contents
 
