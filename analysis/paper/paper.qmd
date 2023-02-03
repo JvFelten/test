@@ -1,5 +1,5 @@
 ---
-title: "my awesome Paper"
+title: "my really awesome Paper"
 author:
   - Jane Doe:
       correspondence: "yes"
