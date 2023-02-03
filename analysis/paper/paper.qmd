@@ -1,5 +1,5 @@
 ---
-title: "my awesome rrTools "
+title: "my awesome Paper"
 author:
   - Jane Doe:
       correspondence: "yes"
