@@ -1,18 +1,14 @@
 ---
 title: "my really awesome Paper"
 author:
-<<<<<<< HEAD
   - Swe Zin Myint:
-=======
-  - Jonas Moritz von Felten:
->>>>>>> 49b933fe302d98e0d70cd3cd55f5b391d36ba76c
       correspondence: "yes"
       email: janedoe@fosg.org
       orcid: 0000-0003-1689-0557
       institute:
         - fosg
         - fop
-  - John Q. Doe:
+  - Jonas Moritz von Felten:
       institute: fosg
       orcid: 0000-0003-1689-0558
   - Peder Ås:
